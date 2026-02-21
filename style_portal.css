@@ -8,7 +8,7 @@ html,body{
     width: 100%;
     background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb3v4lLrj-pGWtQ2PlUt64cTfHTzaI-cNtRQ&s");
     background-size:cover;
-    
+    font-family: Arial, sans-serif;
 }
 
 .logo{
@@ -19,26 +19,38 @@ html,body{
   font-weight:500;
   cursor:pointer;
 }
-
-.login-btn:hover {
-    background-color: #1e40af;
+#button1{
+  background-color: rgb(200, 238, 253);
 }
-#sec3{
-  #arc1{
+.login-btn{
+    background-color: rgb(200, 238, 253);
+}
+#button2{
+  background-color: rgb(200, 238, 253);
+}
+
+#arc1{
   display:flex;
   flex-direction:row;
   
   margin:5px;}
+
+#sec5 {
+     
+    padding: 30px 20px;
+    border: 2px solid;
+    border-radius: 10px ;
+    max-width: 800px;
+    margin: 40px 0 40px auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
-#sec5{
-  text-align: right;
-  
-}
+
 #sec6{
   display:flex;
    flex-direction:row;
    gap:30px;
 }
+
 .footer {
     background-color: #1f2937; 
     color: #f3f4f6; 
@@ -64,4 +76,54 @@ html,body{
     margin-top: 20px;
     font-size: 13px;
     color: #9ca3af;
+}
+#formbody{
+  font-family: Arial, sans-serif;
+  background-color: rgb(249, 249, 209);
+}
+#sub {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.job-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease;
+}
+
+.job-card:hover {
+  transform: scale(1.02);
+}
+
+.job-card h2 {
+  color: #264653;
+  margin-bottom: 10px;
+}
+
+.job-card p {
+  margin: 5px 0;
+}
+
+.job-card button {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.edit-btn {
+  background-color: #f4a261;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #e63946;
+  color: white;
 }
