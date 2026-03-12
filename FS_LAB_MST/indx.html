@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleMSt.css">
+</head>
+<body>
+    <h1 id="heading"><i>Expense Tracker</i></h1>
+    <hr>
+    <h3>Total Expense: Rs. 0</h3>
+<br> <br>
+<h3>Add Expense</h3>
+<section>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Amount</th>
+                <th>Expense Type</th>
+                <th>Add</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td><input type="number" id="expenseAmount" placeholder="Enter amount of Expense"></td>
+            <td>
+                <select id="expenseCategory">
+                <option value="Food">Food</option>
+                <option value="Transport">Transport</option>
+                <option value="Shopping">Shopping</option> </select>
+            </td>
+            <td><button id="AddExpense">Add</button></td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+<br><br>
+<section id="transactionHistory">
+    <h3>Transaction History </h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Amount</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+       <tbody>
+            
+       </tbody>
+    </table>
+</section>
+<footer>
+    <p>© 2026 Personal Expense Tracker</p>
+</footer>
+
+<script src="Mstscript.js"></script>
+
+
+</body>
+</html>
